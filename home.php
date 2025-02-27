@@ -5,6 +5,8 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+//echo get_url("login.php");
+
 $user_id = $_SESSION["user"]["id"] ?? 0; // If user session doesn't exist, set user_id to 0
 
 

@@ -3,7 +3,7 @@
 // Importing db connection
 require(__DIR__."/db.php");
 
-$BASE_PATH="..";
+$BASE_PATH=".";
 // Importing safer echo 
 require(__DIR__."/safer_echo.php");
 
