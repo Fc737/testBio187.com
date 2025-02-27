@@ -1,0 +1,7 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bio187\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bio187\.com$
+RewriteRule ^/?$ "http\:\/\/www\.bio187\.com\/home\-guest\.php" [R=301,L]
